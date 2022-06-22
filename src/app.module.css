@@ -1,0 +1,57 @@
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+.input_button_cont {
+  display: flex;
+  justify-content: center;
+
+}
+.input {
+  width: 70%;
+  border-radius: 4px;
+  border:1px solid gray;
+  height: 40px;
+}
+.button {
+  background-color: rgb(0, 110, 255);
+  border: none;
+  border-radius: 4px;
+  color: white;
+  width: 20%;
+  height: 44px;
+}
+.buttonOff {
+  background-color: rgb(130, 173, 228);
+  border: none;
+  border-radius: 4px;
+  color: white;
+  width: 20%;
+  height: 44px;
+}
+form {
+  width: 100%;
+}
+.message_cont {
+  flex-wrap: wrap;
+  display: flex;
+  margin-top: 15px;
+}
+.cont{
+  display: flex;
+  background-color: rgb(112, 195, 233) ;
+  border-radius: 10px;
+  margin-left: 15px;
+  margin-top: 15px;
+  width: auto;
+}
+.message_text {
+  font-size: 20px;
+  text-align: center;
+  margin-left: 5px;
+}
+.message_remove {
+  background-color: transparent;
+  border: none;
+  margin-left: 10px;
+}
